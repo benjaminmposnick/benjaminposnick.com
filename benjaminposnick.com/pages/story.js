@@ -25,7 +25,7 @@ export default function Story() {
               two-sport varsity athlete, competing in both track & field and cross country. I graduated
               valedictorian of my high school class in June 2017. In fall of 2017, I moved south
               (well, <i>technically</i> it is south, albeit less than 50 miles from my home) to Ithaca, New York to
-              attend Cornell University's College of Engineering.
+              attend Cornell University&#39;s College of Engineering.
               <br /><br />
               I entered Cornell intending to study chemical engineering (ChemE). By the end of my freshman year,
               after having taken my first university-level chemistry course and working as a lab assistant in a
@@ -36,7 +36,7 @@ export default function Story() {
               me to switch my major to computer science.
               <br /><br />
               The summer after my freshman year, I was incredibly fortunate to be accepted into an REU (Research
-              Experiences for Undergraduates) program at Syracuse University's Biomaterials Institute. In pursuit of
+              Experiences for Undergraduates) program at Syracuse University&#39;s Biomaterials Institute. In pursuit of
               gaining more experience in computer science, I asked my principal investigator, Dr. James Henderson,
               if there were any projects I could work on that were more computationally-focused. He did in fact
               have such a project. I was tasked with advancing existing computer vision software for cell tracking. I

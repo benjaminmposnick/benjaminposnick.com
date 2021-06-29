@@ -26,7 +26,7 @@ export default function Home() {
               <Col xs="12" sm="12" md="7" lg="7" xl="7">
                 <div id="mynameis">My name is</div>
                 <div id="name">Benjamin Posnick</div>
-                <div id="job">and I'm a software engineer.</div>
+                <div id="job">and I&#39;m a software engineer.</div>
                 <Container>
                   <Row className="align-items-center" id="icon-links" >
                     <Col className="text-center" xs="6" sm="6" md="3" lg="3" xl="3">

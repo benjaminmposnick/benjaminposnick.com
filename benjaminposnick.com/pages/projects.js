@@ -37,7 +37,7 @@ export default function Projects() {
                   We designed a distributed key-value storage system in Java capable of handling network partitions and
                   redistributing shards across replica groups while maintaining linearizability. We implemented
                   a version of multi-Paxos, as described in
-                  in <a href="https://www.cs.cornell.edu/home/rvr/">Robbert van Renesse's</a> famous
+                  in <a href="https://www.cs.cornell.edu/home/rvr/">Robbert van Renesse&#39;s</a> famous
                   paper <a href="https://www.cs.cornell.edu/home/rvr/Paxos/paxos.pdf">
                     <i>Paxos Made Moderately Complex</i>
                   </a> (fun fact: Prof. van Renesse was actually my operating systems professor), to ensure fault tolerance of replica groups, optimized with mechanisms for garbage
@@ -91,7 +91,7 @@ export default function Projects() {
                 <Card.Text id="card-body">
                   We created an interpreted domain-specific language (DSL) in OCaml for
                   mathematical computations. We created a read-eval-print-loop (REPL), where users can write
-                  OCamulator code and obtain results, similarly to MATLAB's language shell. The OCamulator language
+                  OCamulator code and obtain results, similarly to MATLAB&#39;s language shell. The OCamulator language
                   is capable of linear algebraic computations, such as row reduction, PLU matrix factorization, solving
                   linear systems, inverting square matrices, finding determinants of square matrices, and matrix-vector
                   arithmetic. In the OCamulator language, users can also perform basic arithmetic, solve algebraic
