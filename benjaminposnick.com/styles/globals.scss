@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Ubuntu|Rokkitt');
+
+// Color variables
+$accent-color: #52658f;
+$background-color: #ffffff;
+$jumbotron-color: #f7f5e6;
+$text-color: #333a56;
+
+// Font variables
+$header-font: "Ubuntu", sans-serif;
+$body-font: "Rokkitt", serif;
+
+/* Home page styles */
+
+#mynameis, #job {
+  color: $text-color;
+  font-family: $header-font;
+  font-size: 36px;
+  opacity: 0%;
+}
+
+#mynameis {
+  animation: left-fade 1s ease-in 0s 1 normal forwards;
+}
+
+#name {
+  animation: down-fade 1s ease-in 1s 1 normal forwards;
+  color: $accent-color;
+  font-family: $header-font;
+  font-size: 54px;
+  font-weight: bold;
+  opacity: 0%;
+}
+
+#job {
+  animation: right-fade 1s ease-in 2s 1 normal forwards;
+}
+
+#intro {
+  animation: fade 1s ease-in 3s 1 normal forwards;
+  color: $text-color;
+  font-family: $body-font;
+  font-size: 24px;
+  opacity: 0%;
+}
+
+#headshots {
+  animation: down-fade 1s ease-in 3s 1 normal forwards;
+  opacity: 0%;
+}
+
+#icon-links {
+  animation: up-fade 1s ease-in 3s 1 normal forwards;
+  opacity: 0%;
+}
+
+#resume, #linkedin, #github, #google {
+  color: $accent-color;
+  transform: scale(0.5);
+}
+
+#resume:hover, #linkedin:hover, #github:hover, #google:hover {
+  animation: spin 1s ease-in-out 0s 1 normal forwards;
+  opacity: 100%;
+}
+
+// Animations
+
+@keyframes fade {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes left-fade {
+  from {
+    opacity: 0%;
+    transform: translateX(-25px);
+  }
+  to {
+    opacity: 100%;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes right-fade {
+  from {
+    opacity: 0%;
+    transform: translateX(25px);
+  }
+  to {
+    opacity: 100%;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes down-fade {
+  from {
+    opacity: 0%;
+    transform: translateY(-25px);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes up-fade {
+  from {
+    opacity: 0%;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg) scale(0.5);
+  }
+  to {
+    transform: rotate(359deg) scale(0.5);
+  }
+}
+
+/* Navigation bar styles */
+
+#navbar {
+  background-color: $background-color;
+}
+
+#brand {
+  color: $accent-color;
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 36px;
+}
+
+#navbar-link, #navbar-link:hover {
+  color: $text-color;
+  display: inline-block;
+  font-family: $header-font;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+}
+
+#navbar-link:after {
+  background-color: $accent-color;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+#navbar-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#navbar-link:focus,  #navbar-link:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+// Global styles
+
+.jumbotron {
+  background-color: $jumbotron-color;
+}
+
+#page-title {
+  animation: left-fade 1s ease-in 0s 1 normal forwards;
+  color: $accent-color;
+  font-family: $header-font;
+  font-size: 36px;
+  font-weight: bold;
+  opacity: 0%;
+}
+
+#page-body {
+  animation: down-fade 1s ease-in 1s 1 normal forwards;
+  color: $text-color;
+  font-family: $body-font;
+  font-size: 24px;
+  opacity: 0%;
+}
+
+#card {
+  animation: down-fade 1s ease-in 1s 1 normal forwards;
+  background-color: $background-color;
+  opacity: 0%;
+}
+
+#card-title {
+  color: $accent-color;
+  font-family: $header-font;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#card-subtitle {
+  color: $text-color;
+  font-family: $header-font;
+  font-size: 18px;
+}
+
+#card-body {
+  color: $text-color;
+  font-family: $body-font;
+  font-size: 18px;
+}
+
+#card-button {
+  background: linear-gradient(to left, $background-color 50%, $accent-color 50%) right;
+  background-color: $background-color;
+  background-size: 200%;
+  border-color: $accent-color;
+  color: $accent-color;
+  font-family: $header-font;
+  font-size: 16px;
+  font-weight: bold;
+  transition: .5s ease-in-out;
+}
+
+#card-button:hover {
+  background-position: left;
+  color: $background-color;
+}
+
+#card-button:focus,  #card-button:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
