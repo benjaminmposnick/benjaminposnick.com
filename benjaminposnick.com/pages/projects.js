@@ -50,7 +50,7 @@ export default function Projects() {
                   equipped with a model checker. Since the framework is used by students at other universities, I am
                   unable to publicly post our code for academic integrity reasons. However, I am more than happy to talk
                   about the project on an individual basis, so feel free to reach out if you would like to hear more
-                  about it.
+                  about it. Check out the Github repo for the DSLabs framework below.
                 </Card.Text>
                 <Button href="https://github.com/emichael/dslabs" id="card-button">DSLabs Github Repo</Button>
               </Card.Body>
@@ -76,7 +76,7 @@ export default function Projects() {
                     href="https://en.wikipedia.org/wiki/Continuation-passing_style">continuation-passing style</a> (CPS)
                   and then evaluates them using the semantics of lambda calculus.
                 </Card.Text>
-                <Button href="https://github.com/wlong123/ChipotLang" id="card-button">ChipotLang Github Repo</Button>
+                <Button href="https://github.com/wlong123/ChipotLang" id="card-button">Github Repo</Button>
               </Card.Body>
             </Card>
             <br />
@@ -103,7 +103,7 @@ export default function Projects() {
                   common probability distributions.
                 </Card.Text>
                 <Button href="https://github.com/benjaminmposnick/OCamulator" id="card-button">
-                  OCamulator Github Repo
+                  Github Repo
                 </Button>
               </Card.Body>
             </Card>
@@ -148,7 +148,7 @@ export default function Projects() {
                   used to encode a given signal with 61.820% accuracy on the test set.
                 </Card.Text>
                 <Button href="https://github.com/benjaminmposnick/Modulation-Prediction" id="card-button"
-                  className="mr-2">Modulation Prediction Github Repo</Button>
+                  className="mr-2">Github Repo</Button>
                 <Button href="modulation_prediction.pdf" id="card-button">Report</Button>
               </Card.Body>
             </Card>
